@@ -4,9 +4,9 @@ This repository contains code and sample data for our eEnergy 2023 paper: Equita
 
 ## Description of Sample Dataset
 
-Example gas usage data for a single home (one gas meter) is provided in the file `101.csv`, inside the *gas-data* folder.
+Example gas usage data for a single home (one gas meter) is provided in the file `101.csv`, inside the *gas_data* folder.
 
-Example electric data for a single distribution transformer is provided in the file `123A.csv`, inside the *elec-data* folder.
+Example electric data for a single distribution transformer is provided in the file `123A.csv`, inside the *transformer_data* folder.
 
 ## Running the Experiments
 
