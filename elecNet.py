@@ -1,9 +1,10 @@
-# gasNet.py
+# elecNet.py
 # July 2022
 
-# Gets OpenStreetMap data for chosen city/place, converts the data to a NetworkX graph using OSMnx , 
-# then performs processing to create a simulated network of underground gas pipelines based on vehicle
-# road topology.
+# Given a mapping of gas/electric consumers, encapsulates a list of distribution transformers and information about them,
+# including capacity in kVA and kWh, load profiles over the entire experimental period, and allows to compute quantities
+# such as the number of overloaded transformers and portion of time spent overloaded.  Also handles the conversion of
+# a natural gas heating load into an equivalent electric heat pump load for the same heat energy in BTU.
 
 # Original Paper Reference:
 '''
