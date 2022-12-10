@@ -5,9 +5,8 @@ This folder contains two files.
 meter-block-data.csv contains meter data mapping to census block codes.
 
 Columns
-1. DeviceID - electric meter ID
-2. GASMETERID - gas meter ID
-3. block_code - census block code where this home belongs
+1. GASMETERID - gas meter ID
+2. block_code - census block code where this home exists
 
 ------
 
