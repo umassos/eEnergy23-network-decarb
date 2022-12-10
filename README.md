@@ -37,6 +37,7 @@ Python 3, conda, and Jupyter are required.
 The necessary packages can be installed by following the [OSMnx installation guide](https://osmnx.readthedocs.io/en/stable/), or equivalently by running the two commands below in a conda environment.
 
 `conda config --prepend channels conda-forge`
+
 `conda create -n ox --strict-channel-priority osmnx jupyterlab pandas`
 
 ## Publications
